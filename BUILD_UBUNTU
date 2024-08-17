@@ -1,4 +1,4 @@
-sudo apt install build-essential git cmake autoconf libffi-dev libzip-dev libtool-bin gawk gawk-doc libffi-dev pkgconf libsigsegv-dev glibc-tools bison flex texi2html texinfo
+sudo apt install build-essential git cmake autoconf libffi-dev libzip-dev libtool-bin gawk gawk-doc pkgconf libsigsegv-dev glibc-tools bison flex texi2html texinfo
 autoreconf --install --force
 ./configure
 make

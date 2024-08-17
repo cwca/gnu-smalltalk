@@ -1,0 +1,17 @@
+brew update
+brew upgrade
+brew install autoconf
+brew install libffi
+brew install libzip
+brew install awk
+brew install gawk
+brew install pkgconf
+brew install libsigsegv
+brew install bison
+brew install flex
+brew install texi2html
+brew install texinfo
+brew install aclocal
+brew install cloc
+brew install automake
+brew install libtool
