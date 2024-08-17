@@ -478,7 +478,7 @@ gst_EndNamespaceDeclHandler (void *userData,
 
 static void
 gst_SkippedEntityHandler (void *userData,
-			  const XML_Char * entityName)
+			  const XML_Char * entityName , int n)
 {
   XML_Parser p = userData;
   OOP parserOOP = XML_GetUserData (p);
